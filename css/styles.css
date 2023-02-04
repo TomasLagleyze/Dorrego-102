@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header .logo {
+  height: 500px;
+  width: auto;
+}
+
+nav {
+  width: 1000px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 50px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  background-color: blue;
+}
+
+footer {
+  height: auto;
+  background-color: yellow;
+}/*# sourceMappingURL=styles.css.map */
