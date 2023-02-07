@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,33 +10,63 @@
     <link rel="stylesheet" href="./css/styles.css">
     <title>HOME</title>
 </head>
+
 <body>
     <header>
         <img class="logo" src="./imagenes/LOGO-DORREGO-102.png" alt="">
-       <nav>
-        <ul>
-            <li class="links-generales">
+        <nav>
+            <ul>
+                <li class="links-generales">
                     <a href="./index.html">DORREGO 102</a>
-            </li>
-            <li>
+                </li>
+                <li>
                     <a href="./sections/quienessomos.html">QUIENES SOMOS</a>
-            </li class="links-generales">
-        </ul>
-       </nav>
+                </li class="links-generales">
+            </ul>
+        </nav>
     </header>
-    
+
     <main>
 
-
-<div class="container">
-
-    <div id="catalogo" class="row"></div>
-
-
-</div>
-       
-
+        <input type="text" name="buscador" id="buscador" placeholder="Buscar producto">
         
+        <button class="btn btn-info" id="boton">Buscar</button>
+
+   
+  
+
+
+        <div class="container-md-10">
+            <div class="row">
+                <div class="col-1">
+
+                    <button id="botonDarkMode" class="btn btn-dark">Dark</button>
+
+                </div>
+                <div class="col-2">
+
+                    <button id="botonLightMode" class="btn btn-light">Light</button>
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <ul id="resultado">
+        <div class="container">
+
+            <div id="catalogo" class="row"></div>
+
+
+        </div>
+                  
+    </ul>
+
+
+
 
 
 
@@ -52,5 +83,7 @@
     </script>
 
     <script src="./java/java.js"></script>
+
 </body>
+
 </html>

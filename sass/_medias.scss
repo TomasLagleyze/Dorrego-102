@@ -8,15 +8,17 @@ body {
 }
 
 header {
-    background-color: red;
+    background-color: gainsboro;
 display: flex;
 flex-direction: row;
 align-items: center;
 flex-wrap: wrap;
-.logo {
-    height: 500px;
-    width: auto;}
+margin-bottom: 20px;
 }
+
+.logo {
+    height: 250px;
+    width: auto;}
 
 nav{
     width: 1000px;
@@ -26,7 +28,7 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 50px;
+    font-size: 35px;
 }
 
 li{
@@ -35,15 +37,41 @@ li{
 
  a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
-main{
-    background-color: blue;
+.buscador{color: red;
+    border-radius: 5px;
+
 }
+
+
+
+.container-md-10{
+    padding: 10px;
+    align-content: center;
+    justify-content: center;
+
+
+}
+
+.darkMode{
+    color: white;
+    background-color: black;
+}
+
+.darkMode .card{
+    color: black;
+}
+.darkMode .modal{
+    color: black;}
 
 
 footer{
     height: auto;
     background-color: yellow;
+}
+
+.filtro{
+    display: none;
 }
